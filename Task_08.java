@@ -64,6 +64,4 @@ public class Task_08 {
 
             }
         }
-        //выводим результат
-        System.out.println();
     }
