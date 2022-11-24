@@ -29,12 +29,6 @@ public class Task_14 {
             return (value * 3 + 1);
         };
 
-//        int initialValue = 13;
-//        long count = LongStream.iterate(initialValue, value -> value != 1, sequence)
-//                .count();
-////                .forEach(System.out::println);
-//        System.out.println("count = " + count);
-
         OptionalLong maxNumbers = LongStream.rangeClosed(1, 1000000)
                 .map(startValue -> {
                     long numbersQuantity = LongStream.iterate(startValue, value -> value != 1, sequence).count();
