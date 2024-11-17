@@ -19,9 +19,9 @@ package net.projecteuler.euler.src.main.java;
 public class Task_06 {
     public static void main(String[] args) {
         int n = 100; //число N
-        int sumOfSq = n*(n+1)*(2*n+1)/6; //Сумма квадратов
-        int sqOfSum = (n*(n+1)/2)*(n*(n+1)/2); //Квадрат суммы
-        int dif = sqOfSum - sumOfSq; //Искомая разность
+        int sumOfSq = n*(n+1)*(2*n+1)/6; // Сумма квадратов
+        int sqOfSum = (n*(n+1)/2)*(n*(n+1)/2); // Квадрат суммы
+        int dif = sqOfSum - sumOfSq; // Искомая разность
         System.out.println("Разность между квадратом суммы и суммой квадратов всех чисел от 1 до " + n + " равна " + dif);
     }
 }

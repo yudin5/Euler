@@ -34,7 +34,10 @@ public class Task_12 {
                 divisors = findDivisors(triangleNumber);
             }
             if (divisors.size() > 248) {
-                System.out.println("#" + i + ". Triangle number is " + triangleNumber + ". Divisors: " + divisors + "\nDivisors q-ty: " + divisors.size()*2);
+                System.out.println(
+                        "#" + i + ". Triangle number is " + triangleNumber
+                                + ". Divisors: " + divisors
+                                + "\nDivisors q-ty: " + divisors.size()*2);
                 break;
             }
         }
